@@ -8,6 +8,8 @@
 // Specify the namespace so we don't need to use inline specification
 using namespace std;
 
+int isLooping = false;
+
 // Start the main function, which is the entry point for the program
 int main() {
 
@@ -17,11 +19,21 @@ int main() {
     bool employee_status = true;
     char employee_marital_status = 'S';
 
+    // company details
+    int company_business_number = 123456;
+    string company_name = "ABC Pvt Ltd";
+    string company_address = "123, ABC Street, XYZ City";
+
     // print to screen
     cout << "Employee Number: " << employee_number << endl;
     cout << "Employee Salary: " << employee_salary << endl;
     cout << "Employee Status: " << employee_status << endl;
     cout << "Employee Marital Status: " << employee_marital_status << endl;
+
+    // print to screen
+    cout << "Company Business Number: " << company_business_number << endl;
+    cout << "Company Name: " << company_name << endl;
+    cout << "Company Address: " << company_address << endl;
 
     // Keep the window open
     cin.get();
